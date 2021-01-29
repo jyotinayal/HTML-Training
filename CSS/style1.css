@@ -1,0 +1,232 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    
+   
+ .iconDetails 
+{
+        margin-left:2%;
+        float:left; 
+        height:60px;
+        width:170px;	
+} 
+body{
+    background-color: #E0EAEC;
+}
+.container1 {
+	width:100%;
+	height:60px;
+     background-color: #E0EAEC;
+}
+    
+ul {
+  list-style-type: none;
+  margin-left: 550px;
+  overflow: hidden;
+    
+}
+
+li {
+  float: left;
+  margin-right: 16px;
+}
+
+li a {
+  display: block;
+opacity: 1;
+   text-decoration: none;
+    color:#000000;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 4px;
+    letter-spacing: 0.54px;
+
+}
+    a:hover{
+        text-decoration: underline;
+        text-decoration-color:#FE8369;
+        text-decoration-style: solid 2px;
+    }
+  .btn {
+  background-color: #FE8369;
+  border: 1px;
+  color: white;
+  box-shadow: 1px 10px 20px #00000029;
+  font-size: 16px;
+  height: 35px;
+  text-align: center;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+    .btnimg{
+        opacity: 1; 
+        width:20px ; 
+        height:20px; 
+        background-color:#FE8369; 
+        opacity: 1; 
+        margin-top: 1px; 
+        margin-right: 3px;
+    }
+  
+.sticky {
+  position: fixed;
+  width: 100%;
+}
+.firstsection {
+    background-image: url(../images/banner_image.png);
+       
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 580px;
+        width:1335px;
+        margin-top: 5px;
+}
+    .container-lcs{
+         padding-top: 140px;
+        margin-left: 300px;
+        width: 1154px;
+        height:374px;
+    }
+    .container-Letuschoose{
+       margin-left: 30px;
+        margin-top: 70px;
+        
+    }
+    .Letus{
+        width:600px;
+        height:40px;
+        font-size: 30px;
+        color: white;
+         text-shadow: 0px 5px 20px #5030206B;
+        letter-spacing: 1.5px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .Choose{
+        width:600px;
+        height:70px;
+        font-size: 50px;
+        color: white;
+        letter-spacing: 2.1px;
+        text-align: center;
+         text-shadow: 0px 5px 20px #5030206B;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+          .custom-select{
+            padding-top: 30px;  
+    }
+    select{
+        margin-left: -4px;
+        height: 70px;
+        width: 200px;
+        font-size: 20px;
+        color: #4B4B4B;
+        padding-left: 15px;
+    }
+    .search-button{
+        margin-left: -4px;
+        height: 70px;
+        width: 200px;
+        font-size: 20px;
+        color: white;
+        background-color: #FE8369;
+    }
+.secondsection{
+        background-color: #F0E3D0;
+        width: 1335px;
+        height:400px;
+}
+.thirdsection{
+    background-color:white;
+    height:1000px;
+    width:1335px;
+        
+}   
+    .forthsection{
+        background-color:#F0E3D0;
+        
+    height:800px;
+    width:1335px;
+    }
+    .fivesection{
+        background-color: #4B4B4B;
+    height:690px;
+    width:1335px;
+    }
+
+.five-dot-ome{
+    margin-top: 76px;
+    margin-left: 320px;
+    width: 1280px;
+    height:350px;
+}
+.Wanttobuy{
+    padding-top: 76px;
+    padding-left: 500px;
+    font-size: 30px;
+    color: white;
+}
+.want-to-below{
+    padding-top: 19px;
+    padding-left: 130px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+.details{
+    padding-left: 300px;
+    padding-top: 40px;
+    
+}   
+.details th{
+    padding-left: 10px;
+    text-align: left;
+    color:#D4C9B6;
+    letter-spacing: 0.16px;
+    font-size: 12px;
+}
+.details input{
+    width:170px;
+    height: 40px;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+.btn-booknow{
+    padding-left: 620px;
+    padding-top:25px;
+   
+}
+.btn-booknow button{
+    background-color: #FE8369;
+    border-radius: 5px;
+    color: white;
+    width:150px;
+    height: 40px;
+}
+hr{
+    background-color: #FE8369;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+.footerimg{
+    height:100px;
+    width:200px;
+    padding-left: 30px;
+}
+.logos{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+}
+.logos img{
+    height:auto;
+    width:20px;
+}
+.logo-container{
+    padding-left: 30px;
+}
