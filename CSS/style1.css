@@ -88,10 +88,10 @@ opacity: 1;
        text-align: center;
 }
     .container-lcs{
-        padding-top: 140px;
-        margin-left: 300px;
-        width: 1154px;
-        height:374px;
+    width: 1154px;
+    height: 374px;
+    margin: auto;
+    padding: 210px 30px 100px 300px;
         
     }
    
@@ -142,16 +142,15 @@ opacity: 1;
         border-style: none;
     }
 .secondsection{
-        background-color: #F0E3D0;
-        width: 1355px;
+        background-color: #F0E3D0;       
         height:400px;
-        display: flex;
+    /*display: flex;*/
         padding-top: 57px;
 }
 .thirdsection{
     background-color:white;
     height:1000px;
-    width:1355px;
+    
     margin-top: -18px;
     
 } 
@@ -194,14 +193,12 @@ opacity: 1;
     .forthsection{
         background-color:#F0E3D0;
         background-image: url(../images/curves-bg.png);
-    
-    height:650px;
-    width:1355px;
+        height:650px;
     }
     .fivesection{
     background-color: #4B4B4B;
     height:720px;
-    width:1355px;
+  
     }
 
 
@@ -359,7 +356,8 @@ opacity: 1;
 }
 .cardholder-2sec{
 	padding-left : 250px;
-    
+    float: left;
+   
 }
 .card-2sec:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -393,6 +391,8 @@ opacity: 1;
 .welcome-2sec{
     
     padding-left:60px;
+     float: left;
+    
 }
 .welcome-heading-2sec{
     color: #4B4B4B;
