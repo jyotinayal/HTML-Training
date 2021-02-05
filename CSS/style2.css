@@ -4,7 +4,7 @@ html{
 
 }
 body{
-   margin: auto;
+    margin: auto;
 }
 .nav-bar {
 	height:50px;
@@ -43,6 +43,19 @@ opacity: 1;
     font-weight: 500;
     margin-top: 4px;
     line-height: 15px;
+}
+
+.btnimg{
+  display: block;
+    background-color: #BBA993;
+    height:25px;
+    width: 25px;
+    border-radius: 50%;
+    border-style: none;
+}
+.btnimg img{
+     width: 100%; 
+    object-fit:contain;
 }
 
 .first-section{
@@ -218,14 +231,24 @@ color:#FFFFFF;
     width:1000px;
 }
 
-.second_sec-centered h1{
+.second_heading{
     text-align: center;
     color: #000000;
     font-size: 25px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
-    font-family:500;
+    font-weight:500;
 }
+
+ .second_heading:before {
+        content: "";
+        position: absolute;
+        left: 630px;
+        height: 40px;
+        width: 180px;;
+        border-bottom: 3px solid #707070;
+      }
+
 .cctv_img-2sec{
     float: left;
     width: 400px;
@@ -316,12 +339,26 @@ color:#FFFFFF;
     height:440px;
     text-align: center;
 }
-.forth-section h2{
+
+.forth-section-heading{
     color:#000000;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size:25px;
     line-height: 30px;
+}
+.forth-section-heading:before {
+        content: "";
+        position: absolute;
+        left: 590px;
+        height: 30px;
+        width: 170px;;
+        border-bottom: 3px solid #707070;
+      }
+
+.service-4sec img{
+    height:70px;
+    width:70px;
 }
 .exp-4sec{
     float:left;
